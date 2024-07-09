@@ -1,0 +1,13 @@
+[package]
+name = "dioxus-ratatui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = { version = "0.27.0", features = ["event-stream"] }
+dioxus = { version = "0.5" }
+futures = "0.3.30"
+futures-lite = "2.3.0"
+ratatui = { version = "0.26.3", features = ["all-widgets", "crossterm", "serde", "macros"] }
+tokio = { version = "1.38.0", features = ["full"] }
+
